@@ -65,6 +65,13 @@ summary.lm(MYAGE)
 ```
 This model shows the bears age by length the residual standard is  7.511, and the adjusted R-Square is 0.5166.  This model rank is the fourth best out of all.
  
- 
+```{r}
+MYHEADLEN <- lm(LENGTH~HEADLEN,data=bears)
+plot(LENGTH~HEADLEN,data=bears)
+abline(MYHEADLEN)
+summary.lm(MYHEADLEN)
+```
+
+
  
  
