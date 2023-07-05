@@ -31,3 +31,12 @@ the bears neck is 20 inches around which would mean its about 57 in length. The 
 
 ## Compare all models that predict LENGTH other than NECK. Then order them from worst to best by its value of Adjusted-Rsquared (bigger is better), or by RSE (residual standard error) where smaller is better. 
 
+```{r}
+MYCHEST <- lm(LENGTH~CHEST,data=bears)
+plot(LENGTH~CHEST,data=bears)
+abline(MYCHEST)
+summary.lm(MYCHEST)
+```
+ the residual standard error is 4.939 and is lower than the previous model which proeved to be better. Secondly the R squared is 0.791, which is higher then the previous result model .7524. By ranking we can conclude chest is higher than neck.
+ 
+ 
