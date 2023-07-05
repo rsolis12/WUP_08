@@ -37,7 +37,8 @@ plot(LENGTH~CHEST,data=bears)
 abline(MYCHEST)
 summary.lm(MYCHEST)
 ```
- the residual standard error is 4.939 and is lower than the previous model which proeved to be better. Secondly the R squared is 0.791, which is higher then the previous result model .7524. By ranking we can conclude chest is higher than neck.
+ the residual standard error is 4.939 and is lower than the previous model which proeved to be better. Secondly the R squared is 0.791, which is higher then the previous result model .7524. By ranking we can conclude chest is higher than neck.For the residual error chest is best best.
+ 
  
 ```{r}
 MYHEADWTH <- lm(LENGTH~HEADWTH,data=bears)
@@ -46,13 +47,14 @@ abline(MYHEADWTH)
 summary.lm(MYHEADWTH)
 ```
 
-The third model residual standard is 7.32 which is worse. as well the r Squared is 0.5409 and is declining from the previous models. Overall this is the worst data chart so far.
- 
+The third model residual standard is 7.32 which is worse. as well the r Squared is 0.5409 and is declining from the previous models. Overall this is the worst data chart so far. 
 ```{r}
 MYWEIGHT <- lm(LENGTH~WEIGHT,data=bears)
 plot(LENGTH~WEIGHT,data=bears)
 abline(MYWEIGHT)
 summary.lm(MYWEIGHT)
 ```
+ This model shows the bears weight. the residual standard is  5.432, and the adjusted R-Square is 0.7472. Out of all the models ran chest,neck, headwth and weight.
+ 
  
  
