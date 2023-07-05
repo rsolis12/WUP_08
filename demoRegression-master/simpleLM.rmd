@@ -78,5 +78,5 @@ This models residual is 4.235 and the R squared is .08463. This ranking is the h
 After taken into account all the new results
  From a highest to lowest rating in Standard error, model 6 is the highest by 4.235 then model 2 by 4.939, followed by model 1 by 5.376, then 4 by 5.432. Lastly  the second lowest model is 3 by 7.32 and the lowest is model 5 by 7.511
  
- The after taking into acount all the information gathered the Highest to lowest ratings for R squared is model 6 by 0.8463,	then model 2 by 0.791,	followe by model 1  by  0.7524, then model 4 by 7472. lastly  model 3 by 0.5409 and last model 5 by 0.5166.
+ The after taking into acount all the information gathered the Highest to lowest ratings for R squared is model 6 by 0.8463,	then model 2 by 0.791,	followed by model 1  by  0.7524, then model 4 by 7472. lastly  model 3 by 0.5409 and last model 5 by 0.5166.
  
