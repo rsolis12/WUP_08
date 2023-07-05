@@ -47,7 +47,8 @@ abline(MYHEADWTH)
 summary.lm(MYHEADWTH)
 ```
 
-The third model residual standard is 7.32 which is worse. as well the r Squared is 0.5409 and is declining from the previous models. Overall this is the worst data chart so far. 
+The third model residual standard is 7.32 which is worse. as well the r Squared is 0.5409 and is declining from the previous models. Overall this is the worst data chart so far. This model is the worst residual data and squared.
+
 ```{r}
 MYWEIGHT <- lm(LENGTH~WEIGHT,data=bears)
 plot(LENGTH~WEIGHT,data=bears)
