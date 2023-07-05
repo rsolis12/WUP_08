@@ -57,5 +57,14 @@ summary.lm(MYWEIGHT)
 ```
  This model shows the bears weight. the residual standard is  5.432, and the adjusted R-Square is 0.7472. Out of all the models ran chest,neck, headwth and weight. Model four has the third best stats in residual data and r squared.
  
+```{r}
+MYAGE <- lm(LENGTH~AGE,data=bears)
+plot(LENGTH~AGE,data=bears)
+abline(MYAGE)
+summary.lm(MYAGE)
+```
+
+ 
+ 
  
  
