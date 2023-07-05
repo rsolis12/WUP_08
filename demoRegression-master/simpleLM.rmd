@@ -26,6 +26,7 @@ plot(LENGTH~NECK,data=bears)
 abline(simp)
 summary.lm(simp)
 ```
+the bears neck is 20 inches around which would mean its about 57 in length. The secordary plot shows the residual standard error is 5.376 and The R Squared is .7524
 
 
 ## Compare all models that predict LENGTH other than NECK. Then order them from worst to best by its value of Adjusted-Rsquared (bigger is better), or by RSE (residual standard error) where smaller is better. 
