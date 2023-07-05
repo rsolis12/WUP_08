@@ -71,6 +71,9 @@ plot(LENGTH~HEADLEN,data=bears)
 abline(MYHEADLEN)
 summary.lm(MYHEADLEN)
 ```
+This models residual is 4.235 and the R squared is .08463. This ranking is the highest in standard error and highest in r squared results.
+
+
 
 
  
